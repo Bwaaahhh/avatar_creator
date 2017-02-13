@@ -14,36 +14,45 @@
     <p>Créer votre avatar</p>
 
     <div class="photos">
+
       <div id="front" class="">
+        <div class="afficher-front">
           <?php $result = $avatar->getFront() ?>
           <?php foreach ($result as $row)
           { ?>
-              <img src="<?= $row->url_front ?>" alt="">
-          <?php } ?>
+            <img src="<?= $row->url_front ?>" alt="">
+            <?php } ?>
+        </div>
       </div>
 
       <div id="yeux" class="">
+        <div class="afficher-yeux">
           <?php $result = $avatar->getYeux() ?>
           <?php foreach ($result as $row)
           { ?>
               <img src="<?= $row->url_yeux ?>" alt="">
           <?php } ?>
+        </div>
       </div>
 
       <div id="nez" class="">
+        <div class="afficher-nez">
           <?php $result = $avatar->getNez() ?>
           <?php foreach ($result as $row)
           { ?>
               <img src="<?= $row->url_nez ?>" alt="">
           <?php } ?>
+        </div>
       </div>
 
       <div id="bouche" class="">
+        <div class="afficher-bouche">
           <?php $result = $avatar->getBouche() ?>
           <?php foreach ($result as $row)
           { ?>
               <img src="<?= $row->url_bouche ?>" alt="">
           <?php } ?>
+          </div>
       </div>
 
     </div>
@@ -54,12 +63,12 @@
      <div class="col-md-6 envoyer">
        <input type="text" name="" value="URL de l'image" class="col-md-5 form"><button type="button" name="button" class="btn btn-default">Copier</button>
      </div>
-     
-     
+
+
      <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-     
+
      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
-     
+
 
 </div>
 
