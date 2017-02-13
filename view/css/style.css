@@ -44,15 +44,15 @@ header{
   text-shadow: 0 2px black;
 }
 #front{
-  background-color: black;
   height: auto;
-  width: 650px;
+  width: auto;
   margin-left: 13%;
 }
+#afficher-front{
+  width: auto;
+}
 #yeux{
-  background-color: green;
   height: auto;
-  width: 650px;
   margin-left: 13%;
 }
 #nez{
@@ -80,6 +80,9 @@ body input{
 }
 .envoyer{
   margin-right: 0;
+}
+.twitter-share-button{
+
 }
 /*------------------------ FOOTER ------------------------*/
 #footer{
