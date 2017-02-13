@@ -4,11 +4,16 @@
 
   <div id="creator" class="col-md-6">
 
+
     <p>Créer votre avatar</p>
 
     <div class="photos">
       <div id="front" class="">
-
+          <?php $result = $avatar->getFront() ?>
+          <?php foreach ($result as $row)
+          { ?>
+              <img src="<?= $row->url_front ?>" alt="">
+          <?php } ?>
       </div>
       <div id="yeux" class="">
 
@@ -29,7 +34,6 @@
      </div>
    </div>
 
-  </div>
 
 <!-- ZONE D'AFFICHAGE DERNIERES CREATIONS -->
 
