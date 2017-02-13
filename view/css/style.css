@@ -1,6 +1,59 @@
-#title , #subtitle {
+header{
+    background-color: #E8CB51;
+}
+#title {
   text-align: center;
+  margin : 0;
+  padding-top: 1%;
+  padding-bottom: 0;
+  font-weight: bold;
 }
 #subtitle{
  font-size: 120%;
+ text-align: center;
+ padding-bottom: 1%;
+ font-weight: bold;
+}
+
+/*-------------------- BODY ---------------------*/
+
+#creator{
+  height: 585px;
+  background-color: #FF7040;
+}
+#creator p{
+  font-weight: bold;
+  font-size: 190%;
+  padding-top: 0.8%;
+  color: white;
+}
+#last_creation{
+  height: 585px;
+  background-color: #C95BE8;
+  border-left: 5px dotted white;
+}
+#last_creation p{
+  font-weight: bold;
+  font-size: 190%;
+  padding-top: 0.8%;
+  float: right;
+  color: white;
+}
+
+#front{
+  background-color: black;
+  height: 50px;
+  width: 650px;
+}
+
+
+/*------------------------ FOOTER ------------------------*/
+#footer{
+background-color: #E8CB51;
+  text-align: center;
+  padding-top: 1%;
+  margin-top: 0.65%;
+  padding-bottom: 1%;
+  font-weight: bold;
+
 }

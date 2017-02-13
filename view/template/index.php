@@ -22,7 +22,9 @@
 
 
     <footer>
-
+        <div id="footer" class="col-md-12">
+            <p>© Créé par Cyril, Mélanie, Sarah et Sonya</p>
+        </div>
     </footer>
 
 </body>
