@@ -16,13 +16,25 @@
           <?php } ?>
       </div>
       <div id="yeux" class="">
-
+          <?php $result = $avatar->getYeux() ?>
+          <?php foreach ($result as $row)
+          { ?>
+              <img src="<?= $row->url_yeux ?>" alt="">
+          <?php } ?>
       </div>
       <div id="nez" class="">
-
+          <?php $result = $avatar->getNez() ?>
+          <?php foreach ($result as $row)
+          { ?>
+              <img src="<?= $row->url_nez ?>" alt="">
+          <?php } ?>
       </div>
       <div id="bouche" class="">
-
+          <?php $result = $avatar->getBouche() ?>
+          <?php foreach ($result as $row)
+          { ?>
+              <img src="<?= $row->url_bouche ?>" alt="">
+          <?php } ?>
       </div>
     </div>
 
