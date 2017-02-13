@@ -13,76 +13,80 @@ header{
  text-align: center;
  padding-bottom: 1%;
  font-weight: bold;
-}
+ margin: 0;
 
+}
 /*-------------------- BODY ---------------------*/
 
 #creator{
-  height: 585px;
+  height: 800px;
   background-color: #FF7040;
 }
 #creator p{
   font-weight: bold;
-  font-size: 190%;
+  font-size: 250%;
   padding-top: 0.8%;
   color: white;
   text-align: center;
+  text-shadow: 0 2px black;
 }
 #last_creation{
-  height: 585px;
+  height: 800px;
   background-color: #C95BE8;
   border-left: 5px dotted white;
 }
 #last_creation p{
   font-weight: bold;
-  font-size: 190%;
+  font-size: 250%;
   padding-top: 0.8%;
   color: white;
   text-align: center;
+  text-shadow: 0 2px black;
 }
 #front{
   background-color: black;
   height: auto;
   width: 650px;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 #yeux{
   background-color: green;
   height: auto;
   width: 650px;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 #nez{
   background-color: red;
   height: auto;
   width: 650px;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 #bouche{
   background-color: blue;
   height: auto;
   width: 650px;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 body .btn{
-  margin-left: 40%;
-  margin-top: 25%;
+  margin-top: 2%;
+  margin-left: 13%;
 }
 body input{
-  margin-left: 20%;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 .envoyer button{
-  margin-top: 5px;
-  margin-left: 3px;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+.envoyer{
+  margin-right: 0;
 }
 /*------------------------ FOOTER ------------------------*/
 #footer{
-background-color: #E8CB51;
+  background-color: #E8CB51;
   text-align: center;
   padding-top: 1%;
-  margin-top: 0.65%;
-  padding-bottom: 1%;
+  padding-bottom: 0.3%;
   font-weight: bold;
 
 }
