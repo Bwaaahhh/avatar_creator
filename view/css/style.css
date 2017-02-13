@@ -26,6 +26,7 @@ header{
   font-size: 190%;
   padding-top: 0.8%;
   color: white;
+  text-align: center;
 }
 #last_creation{
   height: 585px;
@@ -36,17 +37,45 @@ header{
   font-weight: bold;
   font-size: 190%;
   padding-top: 0.8%;
-  float: right;
   color: white;
+  text-align: center;
 }
-
 #front{
   background-color: black;
-  height: 50px;
+  height: auto;
   width: 650px;
+  margin-left: 10%;
 }
-
-
+#yeux{
+  background-color: green;
+  height: auto;
+  width: 650px;
+  margin-left: 10%;
+}
+#nez{
+  background-color: red;
+  height: auto;
+  width: 650px;
+  margin-left: 10%;
+}
+#bouche{
+  background-color: blue;
+  height: auto;
+  width: 650px;
+  margin-left: 10%;
+}
+body .btn{
+  margin-left: 40%;
+  margin-top: 25%;
+}
+body input{
+  margin-left: 20%;
+  margin-top: 1%;
+}
+.envoyer button{
+  margin-top: 5px;
+  margin-left: 3px;
+}
 /*------------------------ FOOTER ------------------------*/
 #footer{
 background-color: #E8CB51;

@@ -26,11 +26,11 @@
       </div>
     </div>
 
-    <button type="button" name="button" class="col-md-2 btn">Enregistrer</button>
+    <button type="button" name="button" class="col-md-2 btn btn-default">Enregistrer</button>
 
    <div class="row">
-     <div class="col-md-12">
-       <input type="text" name="" value="URL de l'image" class="col-md-6">
+     <div class="col-md-12 envoyer">
+       <input type="text" name="" value="URL de l'image" class="col-md-6 form"><button type="button" name="button" class="btn btn-default">Copier</button>
      </div>
    </div>
 
