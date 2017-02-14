@@ -64,7 +64,7 @@ body input{
   margin-right: 0;
 }
 .twitter-share-button{
- margin-top: 1%;
+ margin-top: 0.2%;
 }
 #buttonnn
 {
@@ -137,8 +137,20 @@ body input{
 .jssora12l.jssora12ldn { background-position: -256px -37px; }
 .jssora12r.jssora12rdn { background-position: -315px -37px; }
 
-
 #photoo{
     width:65%;
     margin: auto;
+}
+
+@media screen and (max-width: 1800px) {
+  #photoo {
+    width:78%;
+    margin-left: 8.5%;
+  }
+  #buttonnn  {
+    margin-left: 35%;
+  }
+  #url{
+    width: 100px;
+  }
 }

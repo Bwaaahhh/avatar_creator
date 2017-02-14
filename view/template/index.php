@@ -15,7 +15,7 @@
     </head>
     <body>
         <header>
-            <h1 id="title">Afoutar Creator de l'ACS Marmierlalala</h1>
+            <h1 id="title">Afoutar Creator de l'ACS Marmier</h1>
             <h2 id="subtitle">Créez votre "avatar fou" avec les visages de l'ACS Marmier !</h2>
         </header>
         <main>

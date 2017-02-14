@@ -11,7 +11,7 @@
 <!-- ZONE DE CREATION -->
 
   <div id="creator" class="col-md-6">
-    <p>Créer votre avatar</p>
+    <p>Créez votre avatar</p>
 
 
     <div class="photos" id="photoo">
@@ -144,12 +144,12 @@
 
     </div>
     <div class="row">
-          <div class="col-md-4";>
+          <div class="col-md-2 col-lg-4";>
             <a id="test"></a>
               <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
           </div>
           <div class="col-md-4 envoyer">
-               <input type="text" id="url" name="" value="URL de l'image" style="width: 100px;">
+               <input type="text" id="url" name="" value="URL de l'image" style="width: 200px;">
                <button type="button" id="copier" name="button">Copier</button>
           </div>
           <div class="col-md-4" style="margin-top: 11px;padding-left: 0px;";>
