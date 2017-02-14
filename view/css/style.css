@@ -66,10 +66,6 @@ body input{
 .twitter-share-button{
  margin-top: 5%;
 }
-.fb-share-button{
-
-}
-
 #buttonnn
 {
   margin-left: 57%;
@@ -78,19 +74,16 @@ body input{
   border-color: #e8cb51;
   font-weight: bolder;
 }
-
 #url
 {
   width: 55%;
 }
-
 #copier
 {
   background-color: #e8cb51;
   border-color: #e8cb51;
   font-weight: bolder;
 }
-
 #Tt
 {
   background-color: #007ccb;
