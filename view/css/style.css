@@ -31,7 +31,7 @@ header{
   text-shadow: 0 2px black;
 }
 #last_creation{
-  height: 670px;
+  height: 700px;
   background-color: #C95BE8;
   border-left: 5px dotted white;
 }
@@ -58,7 +58,7 @@ body input{
 .envoyer button{
   margin-top: 4%;
   margin-left: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 14.4%;
 }
 .envoyer{
   margin-right: 0;
@@ -152,5 +152,8 @@ body input{
   }
   #url{
     width: 100px;
+  }
+  #last_creation{
+    height: 723px;
   }
 }
