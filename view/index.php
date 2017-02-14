@@ -16,42 +16,127 @@
     <div class="photos">
 
       <div id="front" class="">
-        <div class="afficher-front">
-          <?php $result = $avatar->getFront() ?>
-          <?php foreach ($result as $row)
-          { ?>
-            <img src="<?= $row->url_front ?>" alt="">
-            <?php } ?>
-        </div>
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              </div>
+
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+
+                      <?php $result = $avatar->getFront() ?>
+                      <?php foreach ($result as $row)
+                      { ?>
+                      <div>
+                          <img data-u="image" src="<?= $row->url_front ?>" alt="">
+                      </div>
+                      <?php } ?>
+
+                  <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+              </div>
+              <!-- Bullet Navigator -->
+              <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                  <!-- bullet navigator item prototype -->
+                  <div data-u="prototype" style="width:16px;height:16px;"></div>
+              </div>
+              <!-- Arrow Navigator -->
+              <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+              <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+          </div>
       </div>
 
+<!-- SLIDER 2 -->
       <div id="yeux" class="">
-        <div class="afficher-yeux">
-          <?php $result = $avatar->getYeux() ?>
-          <?php foreach ($result as $row)
-          { ?>
-              <img src="<?= $row->url_yeux ?>" alt="">
-          <?php } ?>
-        </div>
-      </div>
+        <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              </div>
 
-      <div id="nez" class="">
-        <div class="afficher-nez">
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+
+                <?php $result = $avatar->getYeux() ?>
+                <?php foreach ($result as $row)
+                { ?>
+                  <div class="">
+                    <img data-u="image" src="<?= $row->url_yeux ?>" alt="">
+                  </div>
+                <?php } ?>
+                  <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+              </div>
+              <!-- Bullet Navigator -->
+              <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                  <!-- bullet navigator item prototype -->
+                  <div data-u="prototype" style="width:16px;height:16px;"></div>
+              </div>
+              <!-- Arrow Navigator -->
+              <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+              <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+          </div>
+      </div>
+<!-- SLIDER 3 -->
+<div id="yeux" class="">
+  <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+
           <?php $result = $avatar->getNez() ?>
           <?php foreach ($result as $row)
           { ?>
-              <img src="<?= $row->url_nez ?>" alt="">
+              <div class="">
+                <img data-u="image" src="<?= $row->url_nez ?>" alt="">
+              </div>
           <?php } ?>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
         </div>
-      </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>
+</div>
+
+<!-- SLIDER 4 -->
 
       <div id="bouche" class="">
-        <div class="afficher-bouche">
-          <?php $result = $avatar->getBouche() ?>
-          <?php foreach ($result as $row)
-          { ?>
-              <img src="<?= $row->url_bouche ?>" alt="">
-          <?php } ?>
+        <div id="jssor_4" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              </div>
+
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+
+                <?php $result = $avatar->getBouche() ?>
+                <?php foreach ($result as $row)
+                { ?>
+                  <div class="">
+                    <img data-u="image" src="<?= $row->url_bouche ?>" alt="">
+                  </div>
+                <?php } ?>
+
+                  <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+              </div>
+              <!-- Bullet Navigator -->
+              <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+                  <!-- bullet navigator item prototype -->
+                  <div data-u="prototype" style="width:16px;height:16px;"></div>
+              </div>
+              <!-- Arrow Navigator -->
+              <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+              <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
           </div>
       </div>
 
