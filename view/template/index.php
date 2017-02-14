@@ -9,6 +9,9 @@
         <script type="text/javascript" src="view/js/html2canvas.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="view/js/js.js"></script>
+        <script type="text/javascript" src="view/js/slider.js"></script>
+        <script type="text/javascript" src="view/js/jquery-1.11.3.min.js"></script>
+        <script  type="text/javascript" src="view/js/jssor.slider-22.2.6.mini.js"></script>
     </head>
     <body>
         <header>
