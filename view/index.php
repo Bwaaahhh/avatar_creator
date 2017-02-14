@@ -13,7 +13,9 @@
   <div id="creator" class="col-md-6">
     <p>Créer votre avatar</p>
 
-    <div class="photos">
+
+    <div class="photos" id="photoo">
+
       <div id="front" class="">
 <!-- SLIDER 1 FRONT -->
         <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:170px;overflow:hidden;visibility:hidden;">
@@ -141,8 +143,8 @@
       </div>
 
     </div>
-
-    <button type="button" name="button" class="col-md-2 btn btn-default">Enregistrer</button>
+    <a id="test"></a>
+    <button id="buttonnn" type="button" name="button" onclick="getScreenshot()" class="col-md-2 btn btn-default">Enregistrer</button>
 
 
      <div class="col-md-6 envoyer">
