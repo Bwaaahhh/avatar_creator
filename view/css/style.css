@@ -44,28 +44,20 @@ header{
   text-shadow: 0 2px black;
 }
 #front{
-  height: auto;
-  width: auto;
-  margin-left: 13%;
-}
-#afficher-front{
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 #yeux{
   height: auto;
-  margin-left: 13%;
 }
 #nez{
-  background-color: red;
   height: auto;
   width: 650px;
-  margin-left: 13%;
 }
 #bouche{
-  background-color: blue;
   height: auto;
   width: 650px;
-  margin-left: 13%;
+  margin-left: 14.3%;
 }
 body .btn{
   margin-top: 2%;

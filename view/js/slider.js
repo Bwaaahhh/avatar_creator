@@ -1,11 +1,11 @@
 jQuery(document).ready(function ($) {
 
         var jssor_1_SlideshowTransitions = [
-          {$Duration:2800,$Opacity:2}
+          {$Duration:800,$Opacity:2}
         ];
 
         var jssor_1_options = {
-          $AutoPlay: true,
+          $AutoPlay: false,
           $SlideshowOptions: {
             $Class: $JssorSlideshowRunner$,
             $Transitions: jssor_1_SlideshowTransitions,
