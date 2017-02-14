@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title> Découvrez l'avatar creator de l'ACS Marmier !</title>
         <meta name="description" content="Avatar creator en groupe ACS" />
-        <link rel="stylesheet" type="text/css" href="view/css/style.css"  />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="view/css/style.css"  />
         <script type="text/javascript" src="view/js/html2canvas.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="view/js/js.js"></script>

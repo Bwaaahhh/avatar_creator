@@ -143,14 +143,27 @@
       </div>
 
     </div>
-    <a id="test"></a>
-    <button id="buttonnn" type="button" name="button" onclick="getScreenshot()" class="col-md-2 btn btn-default">Enregistrer</button>
+    <div class="row">
 
+          <div class="col-md-4">
 
-     <div class="col-md-6 envoyer">
-       <input type="text" name="" value="URL de l'image" class="col-md-5 form"><button type="button" name="button" class="btn btn-default">Copier</button>
-       <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-       <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
+              <a id="test"></a>
+              <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
+
+          </div>
+          <div class="col-md-4 envoyer">
+
+               <input type="text" id="url" name="" value="URL de l'image">
+               <button type="button" id="copier" name="button">Copier</button>
+
+          </div>
+          <div class="col-md-4">
+
+               <a href="https://twitter.com/share" id="Tt" class="twitter-share-button" data-size="large">Tweet</a>
+               <div class="fb-share-button" id="Fb" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
+
+          </div>
+
      </div>
 
 <!-- Boutons de partage sociaux -->

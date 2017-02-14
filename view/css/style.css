@@ -66,8 +66,41 @@ body input{
  margin-top: 5%;
 }
 .fb-share-button{
-  
+
 }
+
+#buttonnn
+{
+  margin-left: 57%;
+  margin-top: 5%;
+  background-color: #e8cb51;
+  border-color: #e8cb51;
+  font-weight: bolder;
+}
+
+#url
+{
+  width: 55%;
+}
+
+#copier
+{
+  background-color: #e8cb51;
+  border-color: #e8cb51;
+  font-weight: bolder;
+}
+
+#Tt
+{
+  background-color: #007ccb;
+  padding-left: 3%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #fff;
+  font-weight: bolder;
+}
+
 /*------------------------ FOOTER ------------------------*/
 #footer{
   background-color: #E8CB51;
