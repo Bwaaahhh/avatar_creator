@@ -145,7 +145,7 @@
     </div>
     <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-4";>
 
               <a id="test"></a>
               <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
@@ -157,7 +157,7 @@
                <button type="button" id="copier" name="button">Copier</button>
 
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" style="margin-top: 13px">
 
                <a href="https://twitter.com/share" id="Tt" class="twitter-share-button" data-size="large">Tweet</a>
                <div class="fb-share-button" id="Fb" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
