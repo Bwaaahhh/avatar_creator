@@ -16,14 +16,14 @@
     <div class="photos">
       <div id="front" class="">
 <!-- SLIDER 1 FRONT -->
-        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:200px;overflow:hidden;visibility:hidden;">
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:170px;overflow:hidden;visibility:hidden;">
               <!-- Loading Screen -->
               <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
                   <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
                   <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
               </div>
 
-              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:200px;overflow:hidden;">
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:170px;overflow:hidden;">
 
                       <?php $result = $avatar->getFront() ?>
                       <?php foreach ($result as $row)
@@ -78,14 +78,14 @@
       </div>
 <!-- SLIDER 3 NEZ -->
 <div id="yeux" class="">
-  <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:100px;overflow:hidden;visibility:hidden;">
+  <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:70px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
 
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:100px;overflow:hidden;">
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:70px;overflow:hidden;">
 
           <?php $result = $avatar->getNez() ?>
           <?php foreach ($result as $row)
@@ -147,11 +147,11 @@
 
      <div class="col-md-6 envoyer">
        <input type="text" name="" value="URL de l'image" class="col-md-5 form"><button type="button" name="button" class="btn btn-default">Copier</button>
+       <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+       <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
      </div>
 
 <!-- Boutons de partage sociaux -->
-     <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-     <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
 </div>
 
 <!-- ZONE D'AFFICHAGE DERNIERES CREATIONS -->

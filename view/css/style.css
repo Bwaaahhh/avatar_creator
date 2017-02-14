@@ -19,7 +19,7 @@ header{
 /*-------------------- BODY ---------------------*/
 
 #creator{
-  height: 800px;
+  height: auto;
   background-color: #FF7040;
 }
 #creator p{
@@ -31,7 +31,7 @@ header{
   text-shadow: 0 2px black;
 }
 #last_creation{
-  height: 800px;
+  height: auto;
   background-color: #C95BE8;
   border-left: 5px dotted white;
 }
@@ -43,22 +43,6 @@ header{
   text-align: center;
   text-shadow: 0 2px black;
 }
-#front{
-  height: 100%;
-  width: 100%;
-}
-#yeux{
-  height: auto;
-}
-#nez{
-  height: auto;
-  width: 650px;
-}
-#bouche{
-  height: auto;
-  width: 650px;
-  margin-left: 14.3%;
-}
 body .btn{
   margin-top: 2%;
   margin-left: 13%;
@@ -68,13 +52,17 @@ body input{
 }
 .envoyer button{
   margin-top: 4%;
-  margin-left: 2%;
+  margin-left: 4%;
+  margin-bottom: 3%;
 }
 .envoyer{
   margin-right: 0;
 }
 .twitter-share-button{
-
+ margin-top: 5%;
+}
+.fb-share-button{
+  
 }
 /*------------------------ FOOTER ------------------------*/
 #footer{
