@@ -163,6 +163,13 @@
 
   <div id="last_creation" class="col-md-6">
     <p>Les avatars déjà créés</p>
+    <?php $result = $avatar->getRandomAvatar() ?>
+    <?php foreach ($result as $row)
+    { ?>
+      <div class="">
+        <img data-u="image" src="<?= $row->url_avatar ?>" alt="">
+      </div>
+    <?php } ?>
   </div>
 
 </body>
