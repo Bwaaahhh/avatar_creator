@@ -13,7 +13,7 @@
   <div id="creator" class="col-md-6">
     <p>Créer votre avatar</p>
 
-    <div class="photos">
+    <div class="photos" id="photoo">
 
       <div id="front" class="">
         <div class="afficher-front">
@@ -56,8 +56,8 @@
       </div>
 
     </div>
-
-    <button type="button" name="button" class="col-md-2 btn btn-default">Enregistrer</button>
+    <a id="test"></a>
+    <button id="buttonnn" type="button" name="button" onclick="getScreenshot()" class="col-md-2 btn btn-default">Enregistrer</button>
 
 
      <div class="col-md-6 envoyer">
