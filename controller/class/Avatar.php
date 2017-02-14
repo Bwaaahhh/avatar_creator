@@ -5,25 +5,25 @@ class Avatar{
 
     public function getFront(){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM front ORDER BY RAND() LIMIT 1");
+        $query = $dbh->query("SELECT * FROM front ORDER BY RAND()");
         return $query->fetchAll();
     }
 
     public function getYeux(){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM yeux ORDER BY RAND() LIMIT 1");
+        $query = $dbh->query("SELECT * FROM yeux ORDER BY RAND()");
         return $query->fetchAll();
     }
 
     public function getNez(){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM nez ORDER BY RAND() LIMIT 1");
+        $query = $dbh->query("SELECT * FROM nez ORDER BY RAND()");
         return $query->fetchAll();
     }
 
     public function getBouche(){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM bouche ORDER BY RAND() LIMIT 1");
+        $query = $dbh->query("SELECT * FROM bouche ORDER BY RAND()");
         return $query->fetchAll();
     }
 
