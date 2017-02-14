@@ -33,6 +33,13 @@ class Avatar{
         return $query->fetchall();
     }
 
+    public function getUrlAvatar(){
+        global $dbh;
+        $lastInsertId = $dbh->lastInsertId();
+        $query = $dbh->query("SELECT url_avatar FROM avatar WHERE id_avatar = ".$lastInsertId." ");
+        return $query->fetchall();
+    }
+
 }
 
  ?>
