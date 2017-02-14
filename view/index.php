@@ -145,6 +145,7 @@
     </div>
     <div class="row">
           <div class="col-md-4";>
+            <a id="test"></a>
               <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
           </div>
           <div class="col-md-4 envoyer">
@@ -152,7 +153,7 @@
                <button type="button" id="copier" name="button">Copier</button>
           </div>
           <div class="col-md-4" style="margin-top: 17px;padding-left: 0px;";>
-               <a href="https://twitter.com/share" id="Tt" class="twitter-share-button" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+               <a href="https://twitter.com/share" id="Tt" class="twitter-share-button" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                <div class="fb-share-button" id="Fb" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Partager</a></div>
           </div>
      </div>
