@@ -4,16 +4,19 @@ function getScreenshot(){
     var capture = {};
 
     html2canvas($("#photoo"),{
-        onrendered: function(canvas) {
-            capture.img = canvas.toDataURL( "image/png" );
-			capture.data = { '#photoo' : capture.img };
-			$.ajax({
-			url: "controller/ajax.php",
-			data: capture.data,
-			type: 'post',
-			success: function( result ) {
-        $("#url").val(result);
-			}
+      onrendered: function(canvas) {
+        $("#test").attr('href' , canvas.toDataURL('image/png'));
+        $("#test").attr('download' , 'Votre avatar.png');
+        $('#test')[0].click();
+        capture.img = canvas.toDataURL( "image/png" );
+  			capture.data = { '#photoo' : capture.img };
+  			$.ajax({
+  			url: "controller/ajax.php",
+  			data: capture.data,
+  			type: 'post',
+  			success: function( result ) {
+          $("#url").val(result);
+  			}
 			});
         }
     });
