@@ -181,7 +181,7 @@
    <?php foreach ($result as $row)
    { ?>
      <div class="col-md-6 imagecreate">
-       <img data-u="image" style="width: 200px;" src="<?= $row->url_avatar ?>" alt="">
+       <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
      </div>
    <?php } ?>
   </div>
