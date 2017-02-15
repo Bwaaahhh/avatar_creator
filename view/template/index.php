@@ -12,6 +12,31 @@
         <script type="text/javascript" src="view/js/slider.js"></script>
         <script type="text/javascript" src="view/js/jquery-1.11.3.min.js"></script>
         <script  type="text/javascript" src="view/js/jssor.slider-22.2.6.mini.js"></script>
+        <!-- Twitter Card meta -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@skyminds">
+        <meta name="twitter:title" content="Page Title">
+        <meta name="twitter:description" content="Page description : less than 200 characters">
+        <meta name="twitter:creator" content="@skyminds">
+        <meta name="twitter:url" content="Page URL" />
+        <meta name="twitter:domain" content="domain URL" />
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src" content="http://www.example.com/image.jpg">
+
+        <!-- Facebook -->
+        <meta property="og:title" content="Page title" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://www.example.com/" />
+        <meta property="og:image" content="http://example.com/image.jpg" />
+        <meta property="og:description" content="Page description" />
+        <meta property="og:site_name" content="Site Name" />
+        <meta property="article:published_time" content="2015-09-26T15:59:00+01:00" />
+        <meta property="article:modified_time" content="2015-09-26T19:08:47+01:00" />
+        <meta property="fb:admins" content="Facebook numeric admin ID" />
+        <meta property="fb:app_id" content="Facebook numeric app ID" />
+        <meta property="author" content="Author" />
+        <meta property="article:author" content="Facebook URL of author profile" />
+        <meta property="article:publisher" content="Facebook URL of website/fan page" />
     </head>
     <body>
         <header>
