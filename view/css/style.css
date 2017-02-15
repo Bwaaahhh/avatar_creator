@@ -14,7 +14,6 @@ header{
  padding-bottom: 1%;
  font-weight: bold;
  margin: 0;
-
 }
 /*-------------------- BODY ---------------------*/
 
@@ -31,7 +30,7 @@ header{
   text-shadow: 0 2px black;
 }
 #last_creation{
-  height: 700px;
+  height: 738px;
   background-color: #C95BE8;
   border-left: 5px dotted white;
 }
@@ -93,7 +92,9 @@ body input{
   color: #fff;
   font-weight: bolder;
 }
-
+.imagecreate{
+  width: 25%;
+}
 /*------------------------ FOOTER ------------------------*/
 #footer {
   background-color: #E8CB51;

@@ -180,8 +180,8 @@
     <?php $result = $avatar->getRandomAvatar() ?>
    <?php foreach ($result as $row)
    { ?>
-     <div class="">
-       <img data-u="image" src="<?= $row->url_avatar ?>" alt="">
+     <div class="col-md-6 imagecreate">
+       <img data-u="image" style="width: 200px;" src="<?= $row->url_avatar ?>" alt="">
      </div>
    <?php } ?>
   </div>
