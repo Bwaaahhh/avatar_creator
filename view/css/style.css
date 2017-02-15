@@ -110,7 +110,6 @@ body input{
     position: absolute;
     width: 16px;
     height: 16px;
-    background: url('../images/b05.png') no-repeat;
     overflow: hidden;
     cursor: pointer;
 }
