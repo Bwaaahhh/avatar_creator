@@ -62,24 +62,25 @@ body input{
 }
 .envoyer{
   margin-right: 0;
+  width: auto;
 }
 .twitter-share-button{
  margin-top: 0.2%;
 }
 #buttonnn
 {
-  margin-left: 57%;
+  margin-left: 52.5%;
   margin-top: 5%;
   background-color: #e8cb51;
   border-color: #e8cb51;
   font-weight: bolder;
-}
-#url {
-  width: 55%;
+  font-size: 170%;
+  padding: 4%;
 }
 #copier {
   background-color: #e8cb51;
   margin-left: 0;
+  margin-top: 1%;
   border-color: #e8cb51;
   font-weight: bolder;
 }
@@ -145,12 +146,20 @@ body input{
     margin-left: 8.5%;
   }
   #buttonnn  {
-    margin-left: 35%;
-  }
-  #url{
-    width: 100px;
+    margin-left: 38%;
+    margin-top: 12%;
   }
   #last_creation{
-    height: 723px;
+    height: 737px;
   }
+.envoyer{
+  padding-left: 0;
+}
+#bouton{
+  width:auto;
+  margin-right: 9%;
+}
+#url{
+  margin-top: 5%;
+}
 }
