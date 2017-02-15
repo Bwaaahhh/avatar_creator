@@ -151,15 +151,12 @@
           <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
         </div>
         <div class="col-md-5 envoyer">
-          <?php $url = $avatar->getUrlAvatar() ?>
-          <?php foreach ($url as $row)
-          { ?>
             <div class="row">
               <div class="col-md-12">
-                <input type="url" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 340px;">
+                <input type="url" id="url" name="" value="" style="width: 340px;">
               </div>
             </div>
-            <?php } ?>
+
 
             <button type="button" id="copier" onclick="copier()" name="button">Copier</button>
           </div>

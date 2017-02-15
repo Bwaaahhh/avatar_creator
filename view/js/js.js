@@ -12,7 +12,7 @@ function getScreenshot(){
 			data: capture.data,
 			type: 'post',
 			success: function( result ) {
-				console.log( result );
+        $("#url").val(result);
 			}
 			});
         }
