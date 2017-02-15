@@ -34,5 +34,25 @@ class Avatar{
         $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY id_avatar DESC LIMIT 0,1");
         return $query->fetchall();
     }
+
+    public function countAvatar(){
+        global $dbh;
+        $query = $dbh->query("SELECT count(*) as total from avatar");
+        return intval($query->fetch()->total);
+    }
+
+    public function setAvatar(){
+      global $dbh;
+      $count = $this->countAvatar()+1 ;
+      $req = $dbh->prepare("INSERT INTO avatar (url_avatar) VALUES (:url_avatar)");
+      $req->execute(array(
+        "url_avatar" => "http://cyrile.marmier.codeur.online/avatar_creator/view/images/avatar/avatar".$count.".png"
+      ));
+
+    }
+
+
+// ".$this->countAvatar()."
+
 }
 ?>
