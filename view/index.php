@@ -156,12 +156,12 @@
           { ?>
             <div class="row">
               <div class="col-md-12">
-                <input type="text" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 340px;">
+                <input type="url" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 340px;">
               </div>
             </div>
             <?php } ?>
 
-            <button type="button" id="copier" name="button">Copier</button>
+            <button type="button" id="copier" onclick="copier()" name="button">Copier</button>
           </div>
           <div class="col-md-2" style="margin-top: 11px ; padding-left:0">
             <a href="https://twitter.com/share" id="Tt" class="twitter-share-button" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -180,10 +180,10 @@
     <?php $result = $avatar->getRandomAvatar() ?>
    <?php foreach ($result as $row)
    { ?>
-     <div class="">
-       <img data-u="image" src="<?= $row->url_avatar ?>" alt="">
+     <div class="col-md-6 imagecreate">
+       <img data-u="image" style="width: 200px;" src="<?= $row->url_avatar ?>" alt="">
      </div>
    <?php } ?>
   </div>
-
+  <script src="dist/clipboard.min.js"></script>
 </body>
