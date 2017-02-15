@@ -22,7 +22,7 @@
               <!-- Loading Screen -->
               <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
                   <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                  <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;"></div>
               </div>
 
               <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:170px;overflow:hidden;">
@@ -54,7 +54,7 @@
               <!-- Loading Screen -->
               <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
                   <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                  <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;"></div>
               </div>
 
               <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:100px;overflow:hidden;">
@@ -84,7 +84,7 @@
         <!-- Loading Screen -->
         <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
 
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:70px;overflow:hidden;">
@@ -116,7 +116,7 @@
               <!-- Loading Screen -->
               <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
                   <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-                  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                  <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;"></div>
               </div>
 
               <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:200px;overflow:hidden;">
@@ -149,7 +149,15 @@
               <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
           </div>
           <div class="col-md-4 envoyer">
-               <input type="text" id="url" name="" value="URL de l'image" style="width: 200px;">
+
+            <?php $url = $avatar->getUrlAvatar() ?>
+            <?php foreach ($url as $row)
+            { ?>
+              <div class="">
+               <input type="text" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 200px;">
+             </div>
+            <?php } ?>
+
                <button type="button" id="copier" name="button">Copier</button>
           </div>
           <div class="col-md-4" style="margin-top: 11px;padding-left: 0px;";>
@@ -163,13 +171,6 @@
 
   <div id="last_creation" class="col-md-6">
     <p>Les avatars déjà créés</p>
-    <?php $result = $avatar->getRandomAvatar() ?>
-    <?php foreach ($result as $row)
-    { ?>
-      <div class="">
-        <img data-u="image" src="<?= $row->url_avatar ?>" alt="">
-      </div>
-    <?php } ?>
   </div>
 
 </body>

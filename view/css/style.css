@@ -74,18 +74,15 @@ body input{
   border-color: #e8cb51;
   font-weight: bolder;
 }
-#url
-{
+#url {
   width: 55%;
 }
-#copier
-{
+#copier {
   background-color: #e8cb51;
   border-color: #e8cb51;
   font-weight: bolder;
 }
-#Tt
-{
+#Tt {
   background-color: #007ccb;
   padding-left: 3%;
   padding-right: 4%;
@@ -96,13 +93,12 @@ body input{
 }
 
 /*------------------------ FOOTER ------------------------*/
-#footer{
+#footer {
   background-color: #E8CB51;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 0.3%;
+  padding-top: 3%;
+  padding-bottom: 3.5%;
   font-weight: bold;
-
 }
 /*-------------------------------- Slider --------------*/
 .jssorb05 {
