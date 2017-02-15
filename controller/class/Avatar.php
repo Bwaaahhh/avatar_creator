@@ -25,7 +25,7 @@ class Avatar{
     }
     public function getRandomAvatar(){
         global $dbh;
-        $query = $dbh->query("SELECT date_creation , nom_avatar , url_avatar FROM avatar ORDER BY RAND() LIMIT 5 ");
+        $query = $dbh->query("SELECT date_creation, url_avatar FROM avatar ORDER BY RAND() LIMIT 5 ");
         return $query->fetchall();
     }
     public function getUrlAvatar(){

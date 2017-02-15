@@ -153,9 +153,11 @@
             <?php $url = $avatar->getUrlAvatar() ?>
             <?php foreach ($url as $row)
             { ?>
-              <div class="">
-               <input type="text" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 200px;">
-             </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <input type="text" id="url" name="" value="<?= $row->url_avatar ?>" style="width: 200px;">
+                </div>
+              </div>
             <?php } ?>
 
                <button type="button" id="copier" name="button">Copier</button>

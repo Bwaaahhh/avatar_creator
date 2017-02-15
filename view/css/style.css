@@ -79,6 +79,7 @@ body input{
 }
 #copier {
   background-color: #e8cb51;
+  margin-left: 0;
   border-color: #e8cb51;
   font-weight: bolder;
 }
