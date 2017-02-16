@@ -180,12 +180,14 @@
    <?php foreach ($result as $row)
    { ?>
      <div class="col-md-6 imagecreate">
-       <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
-     </div>
+       <a href="index.php?page=view_avatar&id_avatar=<?= $row->id_avatar ?>">
+         <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
+       </a>
+    </div>
    <?php } ?>
   </div>
   <div class="moustache">
-    <p>Ajoutez un accessoire</p> 
+    <p>Ajoutez un accessoire</p>
     <div class="ui-widget-content" id="draggable1">
       <img src="view/images/Bonus_img/moustache/barbe.png" alt="bonus">
     </div>
