@@ -25,14 +25,13 @@ class Avatar{
     }
     public function getRandomAvatar(){
         global $dbh;
-        $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY RAND() LIMIT 5 ");
+        $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY RAND() LIMIT 10 ");
         return $query->fetchall();
     }
     public function getUrlAvatar(){
         global $dbh;
-        $lastInsertId = $dbh->lastInsertId();
         $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY id_avatar DESC LIMIT 0,1");
-        return $query->fetchall();
+        return $query->fetch()->url_avatar;
     }
 
     public function countAvatar(){
