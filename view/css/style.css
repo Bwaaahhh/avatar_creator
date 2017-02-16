@@ -110,7 +110,7 @@ body input{
   margin-right: 2%;
 }
 .moustacheok div img{
-  width: 45%;
+  width: 100%;
 }
 
 /*----------------------------PAGE VISU AVATAR------------------------*/
@@ -128,6 +128,13 @@ main .visu_avatar{
   padding-top: 3%;
   padding-bottom: 3.5%;
   font-weight: bold;
+}
+#footer p{
+  font-size: 100%;
+  color: black;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0 0px #333333;
 }
 /*-------------------------------- Slider --------------*/
 .jssorb05 {
