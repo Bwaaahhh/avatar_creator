@@ -25,7 +25,7 @@ class Avatar{
     }
     public function getRandomAvatar(){
         global $dbh;
-        $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY RAND() LIMIT 10 ");
+        $query = $dbh->query("SELECT url_avatar , id_avatar FROM avatar ORDER BY RAND() LIMIT 10 ");
         return $query->fetchall();
     }
     public function getUrlAvatar(){
@@ -33,6 +33,13 @@ class Avatar{
         $query = $dbh->query("SELECT url_avatar FROM avatar ORDER BY id_avatar DESC LIMIT 0,1");
         return $query->fetch()->url_avatar;
     }
+
+    public function getSpecialAvatar(){
+      global $dbh;
+      $query = $dbh->query("SELECT url_avatar , id_avatar FROM avatar WHERE id_avatar = ".$_GET['param_url']."");
+      return $query->fetchall();
+    }
+
 
     public function countAvatar(){
         global $dbh;
