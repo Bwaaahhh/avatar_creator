@@ -104,6 +104,12 @@ body input{
 .moustache{
   background-color: #7964FF;
 }
+.moustacheok{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 .moustacheok div{
   display: inline-block;
   margin-left: 2%;
