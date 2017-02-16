@@ -1,5 +1,6 @@
 $( function()
 {
+
     $( "#draggable1" ).draggable();
     $( "#draggable2" ).draggable();
     $( "#draggable3" ).draggable();
@@ -16,14 +17,7 @@ $( function()
     $( "#draggable14" ).draggable();
     $( "#draggable15" ).draggable();
     $( "#draggable16" ).draggable();
-    $( "#draggable17" ).draggable();
 
-    $( "#photoo" ).droppable({
-      drop: function( event, ui ) {
-        $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-      }
-    });
+    $( "#photoo" ).droppable();
 
   });

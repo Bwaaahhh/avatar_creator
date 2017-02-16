@@ -186,6 +186,7 @@
     </div>
    <?php } ?>
   </div>
+
   <div class="moustache">
     <p class="col-md-12">Ajoutez un accessoire</p>
     <div class="moustacheok">
@@ -247,17 +248,15 @@
     </div>
 
     <div class="ui-widget-content" id="draggable15" style="margin-right: 0px;margin-left: 0px;">
-    <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
+      <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
     </div>
+
 
     <div class="ui-widget-content" id="draggable16" style="margin-right: 0px;margin-left: 0px;">
-    <img src="view/images/Bonus_img/autre/autre.png" alt="bonus">
+      <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable17" style="margin-right: 0px;margin-left: 0px;">
-    <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
-    </div>
-  </div>
+>>>>>>> master
   </div>
 
 </body>
