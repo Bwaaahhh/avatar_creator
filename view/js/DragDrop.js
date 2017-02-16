@@ -18,6 +18,12 @@ $( function()
     $( "#draggable15" ).draggable();
     $( "#draggable16" ).draggable();
 
-    $( "#photoo" ).droppable();
+    $( "#photoo" ).droppable(
+      {
+        drop: function (event, ui)
+        {
+          draggable.resizable();
+        }
+      });
 
   });
