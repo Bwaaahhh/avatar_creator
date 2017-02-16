@@ -187,6 +187,7 @@
    <?php } ?>
   </div>
   <div class="moustache">
+    <p>Ajoutez un accessoire</p>
       <div class="slidBonus" id="SBonus">
         <ul>
             <li><img src="view/images/Bonus_img/moustache/barbe.png" alt=""></li>

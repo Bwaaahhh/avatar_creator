@@ -12,6 +12,7 @@
         <script type="text/javascript" src="view/js/slider.js"></script>
         <script type="text/javascript" src="view/js/jquery-1.11.3.min.js"></script>
         <script  type="text/javascript" src="view/js/jssor.slider-22.2.6.mini.js"></script>
+
         <!-- Twitter Card meta -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@skyminds">

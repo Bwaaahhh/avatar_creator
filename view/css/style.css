@@ -46,6 +46,14 @@ canvas{
   text-align: center;
   text-shadow: 0 2px black;
 }
+.moustache p{
+  font-weight: bold;
+  font-size: 300%;
+  padding-top: 0.8%;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px black;
+}
 body .btn{
   margin-top: 2%;
   margin-left: 13%;
@@ -112,10 +120,6 @@ main .visu_avatar{
   height: 400px ;
   width: 400px;
 }
-
-
-
-
 
 /*------------------------ FOOTER ------------------------*/
 #footer {
@@ -190,6 +194,7 @@ main .visu_avatar{
   width: 350px;
   height: 250px;
 }
+/*------------- MEDIA QUERIES -----------------*/
 
 @media screen and (max-width: 1800px) {
   #photoo {
