@@ -1,34 +1,15 @@
 
 function getScreenshot(){
-
-    var capture = {};
-
     html2canvas($("#photoo"),{
-      onrendered: function(canvas) {
-        $("#test").attr('href' , canvas.toDataURL('image/png'));
-        $("#test").attr('download' , 'Votre avatar.png');
-        $('#test')[0].click();
-        capture.img = canvas.toDataURL( "image/png" );
-  			capture.data = { '#photoo' : capture.img };
-  			$.ajax({
-  			url: "controller/ajax.php",
-  			data: capture.data,
-  			type: 'post',
-  			success: function( result ) {
-          $("#url").val(result);
-  			}
-			});
+        onrendered: function(canvas) {
+            $('.jssora12l').remove();
+            $('.jssora12r').remove();
+
+            $('#last_creation').html("");
+            $('#last_creation').append(canvas);
+            $('#test').attr('href', canvas.toDataURL("images"));
+            // $('#test').attr('download', 'Test file.png');
+            $('#test')[0].click();
         }
     });
-}
-
-
-//--------------------------- COPIER URL ---------------------------
-
-function copier()
-{
-  var url = document.querySelector('#url');
-  url.select();
-
-  document.execCommand('copy'); // cut
 }

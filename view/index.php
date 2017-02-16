@@ -10,11 +10,9 @@
 
 <!-- ZONE DE CREATION -->
 <div class="container-fluid">
-
   <div class="row">
     <div id="creator" class="col-md-6">
       <p>Créez votre avatar</p>
-
 
       <div class="photos ui-widget-header" id="photoo">
 
