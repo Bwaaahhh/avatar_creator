@@ -5,10 +5,6 @@ $page = "index.php";
 define('WEBROOT', str_replace($page, 'view/template/', $_SERVER['SCRIPT_NAME']));
 
 require_once("model/PDO.php");
-<<<<<<< Updated upstream
-=======
-// require_once('controller/requeteMergeImage.php');
->>>>>>> Stashed changes
 require_once('controller/class/Avatar.php');
 $avatar = new Avatar();
 

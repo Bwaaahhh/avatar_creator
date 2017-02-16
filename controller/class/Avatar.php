@@ -36,7 +36,7 @@ class Avatar{
 
     public function getSpecialAvatar(){
       global $dbh;
-      $query = $dbh->query("SELECT url_avatar , id_avatar FROM avatar WHERE id_avatar = ".$_GET['param_url']."");
+      $query = $dbh->query("SELECT url_avatar , id_avatar FROM avatar WHERE id_avatar = ".$_GET['id_avatar']."");
       return $query->fetchall();
     }
 
