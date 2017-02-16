@@ -167,33 +167,6 @@ main .visu_avatar{
     margin: auto;
 }
 
-#SBonus
-{
-  overflow: hidden;
-  width: 100%;
-  height: 250px;
-  margin: 0 auto;
-}
-
-#SBonus ul
-{
-  width: 300%;
-  height: 356px;
-  display: inline-block;
-  position: relative;
-  list-style: none;
-}
-
-#SBonus li
-{
-  float: left;
-}
-
-#SBonus ul li img
-{
-  width: 350px;
-  height: 250px;
-}
 /*------------- MEDIA QUERIES -----------------*/
 
 @media screen and (max-width: 1800px) {

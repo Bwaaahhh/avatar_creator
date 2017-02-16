@@ -35,14 +35,3 @@ jQuery(document).ready(function ($) {
         $(window).bind("orientationchange", ScaleSlider);
         /*responsive code end*/
     });
-
-
-    var interval =  setInterval(function()
-        {
-
-            $("#SBonus ul").animate({marginLeft:-430},function()
-               {
-                  $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
-                })
-
-        }, 2000);

@@ -1,4 +1,4 @@
-</li></li></li></li><body>
+<body>
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -14,7 +14,7 @@
     <p>Créez votre avatar</p>
 
 
-    <div class="photos" id="photoo">
+    <div class="photos ui-widget-header" id="photoo">
 
       <div id="front" class="">
 <!-- SLIDER 1 FRONT -->
@@ -180,44 +180,82 @@
    <?php foreach ($result as $row)
    { ?>
      <div class="col-md-6 imagecreate">
-       <a href="index.php?page=view_avatar&id_avatar=<?= $row->id_avatar ?>">
-         <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
-       </a>
+       <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
      </div>
    <?php } ?>
   </div>
   <div class="moustache">
-    <p>Ajoutez un accessoire</p>
-      <div class="slidBonus" id="SBonus">
-        <ul>
-            <li><img src="view/images/Bonus_img/moustache/barbe.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/moustache/moustache.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/moustache/moustache2.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/moustache/moustache3.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/moustache/moustache4.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/lunette/lunette.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/lunette/lunette2.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/lunette/lunette3.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/lunette/lunette4.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/lunette/lunette5.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/chapeau/chapeau.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/chapeau/chapeau1.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/chapeau/chapeau2.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/chapeau/chapeau3.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/chapeau/chapeau4.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/bouche/bouche.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/bouche/bouche1.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/bouche/bouche2.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/bouche/bouche3.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/bouche/bouche4.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre1.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre2.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre3.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre4.png" alt=""></li>
-            <li><img src="view/images/Bonus_img/autre/autre5.png" alt=""></li>
-          </ul>
-      </div>
+
+    <div class="ui-widget-content" id="draggable1">
+      <img src="view/images/Bonus_img/moustache/barbe.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable2">
+      <img src="view/images/Bonus_img/moustache/moustache.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable3">
+      <img src="view/images/Bonus_img/moustache/moustache2.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable4">
+      <img src="view/images/Bonus_img/moustache/moustache3.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable5">
+      <img src="view/images/Bonus_img/lunette/lunette.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable6">
+      <img src="view/images/Bonus_img/lunette/lunette3.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable7">
+      <img src="view/images/Bonus_img/lunette/lunette4.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable8">
+      <img src="view/images/Bonus_img/lunette/lunette5.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable9">
+      <img src="view/images/Bonus_img/chapeau/chapeau.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable10">
+      <img src="view/images/Bonus_img/chapeau/chapeau1.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable11">
+      <img src="view/images/Bonus_img/chapeau/chapeau2.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable12">
+    <img src="view/images/Bonus_img/chapeau/chapeau4.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable13">
+    <img src="view/images/Bonus_img/bouche/bouche.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable14">
+    <img src="view/images/Bonus_img/bouche/bouche1.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable15">
+    <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable16">
+    <img src="view/images/Bonus_img/autre/autre.png" alt="bonus">
+    </div>
+
+    <div class="ui-widget-content" id="draggable17">
+    <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
+    </div>
+
+
+
   </div>
-  <script src="dist/clipboard.min.js"></script>
+
 </body>
