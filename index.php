@@ -5,7 +5,6 @@ $page = "index.php";
 define('WEBROOT', str_replace($page, 'view/template/', $_SERVER['SCRIPT_NAME']));
 
 require_once("model/PDO.php");
-require_once('controller/requeteMergeImage.php');
 require_once('controller/class/Avatar.php');
 $avatar = new Avatar();
 

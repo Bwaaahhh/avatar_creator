@@ -180,7 +180,9 @@
    <?php foreach ($result as $row)
    { ?>
      <div class="col-md-6 imagecreate">
-       <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
+       <a href="index.php?page=view_avatar&param_url=<?= $row->id_avatar ?>">
+         <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
+       </a>
      </div>
    <?php } ?>
   </div>

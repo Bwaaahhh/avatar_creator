@@ -105,6 +105,18 @@ body input{
   position: absolute;
 }
 
+/*----------------------------PAGE VISU AVATAR------------------------*/
+
+main .visu_avatar{
+  background-color: #C95BE8;
+  height: 400px ;
+  width: 400px;
+}
+
+
+
+
+
 /*------------------------ FOOTER ------------------------*/
 #footer {
   background-color: #E8CB51;
