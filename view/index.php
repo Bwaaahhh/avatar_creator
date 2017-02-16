@@ -185,7 +185,7 @@
    <?php } ?>
   </div>
   <div class="moustache">
-
+    <p>Ajoutez un accessoire</p> 
     <div class="ui-widget-content" id="draggable1">
       <img src="view/images/Bonus_img/moustache/barbe.png" alt="bonus">
     </div>
