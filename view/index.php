@@ -1,4 +1,4 @@
-<body>
+</li></li></li></li><body>
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -184,6 +184,38 @@
        <img data-u="image" style="width: 200px;" src="<?= $row->url_avatar ?>" alt="">
      </div>
    <?php } ?>
+  </div>
+  <div class="moustache">
+      <div class="slidBonus" id="SBonus">
+        <ul>
+            <li><img src="view/images/Bonus_img/moustache/barbe.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/moustache/moustache.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/moustache/moustache2.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/moustache/moustache3.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/moustache/moustache4.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/lunette/lunette.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/lunette/lunette2.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/lunette/lunette3.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/lunette/lunette4.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/lunette/lunette5.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/chapeau/chapeau.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/chapeau/chapeau1.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/chapeau/chapeau2.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/chapeau/chapeau3.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/chapeau/chapeau4.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/bouche/bouche.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/bouche/bouche1.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/bouche/bouche2.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/bouche/bouche3.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/bouche/bouche4.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre1.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre2.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre3.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre4.png" alt=""></li>
+            <li><img src="view/images/Bonus_img/autre/autre5.png" alt=""></li>
+          </ul>
+      </div>
   </div>
   <script src="dist/clipboard.min.js"></script>
 </body>

@@ -95,6 +95,16 @@ body input{
 .imagecreate{
   width: 25%;
 }
+
+.moustache
+{
+  background-color: #7964FF;
+  width: 100%;
+  height: 250px;
+  margin-top: 38%;
+  position: absolute;
+}
+
 /*------------------------ FOOTER ------------------------*/
 #footer {
   background-color: #E8CB51;
@@ -102,6 +112,7 @@ body input{
   padding-top: 3%;
   padding-bottom: 3.5%;
   font-weight: bold;
+  margin-top: 12%;
 }
 /*-------------------------------- Slider --------------*/
 .jssorb05 {
@@ -138,6 +149,34 @@ body input{
 #photoo{
     width:65%;
     margin: auto;
+}
+
+#SBonus
+{
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+#SBonus ul
+{
+  width: 300%;
+  height: 356px;
+  display: inline-block;
+  position: relative;
+  list-style: none;
+}
+
+#SBonus li
+{
+  float: left;
+}
+
+#SBonus ul li img
+{
+  width: 350px;
+  height: 250px;
 }
 
 @media screen and (max-width: 1800px) {
