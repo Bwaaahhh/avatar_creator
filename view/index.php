@@ -187,77 +187,77 @@
    <?php } ?>
   </div>
   <div class="moustache">
-    <p>Ajoutez un accessoire</p>
-    <div class="ui-widget-content" id="draggable1">
+    <p class="col-md-12">Ajoutez un accessoire</p>
+    <div class="moustacheok">
+
+    <div class="ui-widget-content" id="draggable1" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/moustache/barbe.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable2">
+    <div class="ui-widget-content" id="draggable2" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/moustache/moustache.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable3">
+    <div class="ui-widget-content" id="draggable3" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/moustache/moustache2.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable4">
+    <div class="ui-widget-content" id="draggable4" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/moustache/moustache3.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable5">
+    <div class="ui-widget-content" id="draggable5" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/lunette/lunette.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable6">
+    <div class="ui-widget-content" id="draggable6" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/lunette/lunette3.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable7">
+    <div class="ui-widget-content" id="draggable7" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/lunette/lunette4.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable8">
+    <div class="ui-widget-content" id="draggable8" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/lunette/lunette5.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable9">
+    <div class="ui-widget-content" id="draggable9" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/chapeau/chapeau.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable10">
+    <div class="ui-widget-content" id="draggable10" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/chapeau/chapeau1.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable11">
+    <div class="ui-widget-content" id="draggable11" style="margin-right: 0px;margin-left: 0px;">
       <img src="view/images/Bonus_img/chapeau/chapeau2.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable12">
+    <div class="ui-widget-content" id="draggable12" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/chapeau/chapeau4.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable13">
+    <div class="ui-widget-content" id="draggable13" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/bouche/bouche.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable14">
+    <div class="ui-widget-content" id="draggable14" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/bouche/bouche1.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable15">
+    <div class="ui-widget-content" id="draggable15" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable16">
+    <div class="ui-widget-content" id="draggable16" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/autre/autre.png" alt="bonus">
     </div>
 
-    <div class="ui-widget-content" id="draggable17">
+    <div class="ui-widget-content" id="draggable17" style="margin-right: 0px;margin-left: 0px;">
     <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
     </div>
-
-
-
+  </div>
   </div>
 
 </body>
