@@ -18,13 +18,7 @@
 
             <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:170px;overflow:hidden;">
 
-              <?php $result = $avatar->getFront() ?>
-              <?php foreach ($result as $row)
-              { ?>
-                <div>
-                  <img data-u="image" src="<?= $row->url_front ?>" alt="">
-                </div>
-                <?php } ?>
+              <?php require_once('controller/front.php') ?>
 
                 <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
               </div>
@@ -48,15 +42,8 @@
                 <div style="position:absolute;display:block;top:0px;left:0px;width:100%;height:100%;"></div>
               </div>
 
-              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:100px;overflow:hidden;">
-
-                <?php $result = $avatar->getYeux() ?>
-                <?php foreach ($result as $row)
-                { ?>
-                  <div class="">
-                    <img data-u="image" src="<?= $row->url_yeux ?>" alt="">
-                  </div>
-                  <?php } ?>
+              <div class="yeux" data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:100px;overflow:hidden;">
+                  <?php require_once('controller/yeux.php'); ?>
                   <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
                 </div>
                 <!-- Bullet Navigator -->
@@ -70,7 +57,7 @@
               </div>
             </div>
             <!-- SLIDER 3 NEZ -->
-            <div id="yeux" class="">
+            <div id="nez" class="">
               <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:70px;overflow:hidden;visibility:hidden;">
                 <!-- Loading Screen -->
                 <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
@@ -112,13 +99,7 @@
 
                   <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:200px;overflow:hidden;">
 
-                    <?php $result = $avatar->getBouche() ?>
-                    <?php foreach ($result as $row)
-                    { ?>
-                      <div class="">
-                        <img data-u="image" src="<?= $row->url_bouche ?>" alt="">
-                      </div>
-                      <?php } ?>
+                    <?php require_once('controller/bouche.php') ?>
 
                       <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
                     </div>
@@ -182,53 +163,71 @@
                 <div class="moustacheok">
 
                   <div class="ui-widget-content" id="draggable5" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/lunette/lunette.png" alt="bonus">
+                    <a href="index.php?paramYeux=1">
+                      <img id="imgLunette" src="view/images/Bonus_img/lunette/lunette.png" alt="bonus">
+                    </a>
                   </div>
 
                   <div class="ui-widget-content" id="draggable6" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/lunette/lunette3.png" alt="bonus">
+                    <a href="index.php?paramYeux=3">
+                      <img src="view/images/Bonus_img/lunette/lunette3.png" alt="bonus">
+                    </a>
                   </div>
 
                   <div class="ui-widget-content" id="draggable7" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/lunette/lunette4.png" alt="bonus">
+                    <a href="index.php?paramYeux=2">
+                      <img src="view/images/Bonus_img/lunette/lunette4.png" alt="bonus">
+                    </a>
                   </div>
 
-                  <div class="ui-widget-content" id="draggable8" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/lunette/lunette5.png" alt="bonus">
-                  </div>
+                  <a href="index.php?page=sessionYeux">
+                    <button type="button" id="copier"  name="button">Enlever lunette</button>
+                    </a>
 
                   <div class="ui-widget-content" id="draggable9" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/chapeau/chapeau.png" alt="bonus">
+                    <a href="index.php?paramFront=1">
+                      <img src="view/images/Bonus_img/chapeau/chapeau.png" alt="bonus">
+                    </a>
                   </div>
 
                   <div class="ui-widget-content" id="draggable10" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/chapeau/chapeau1.png" alt="bonus">
+                    <a href="index.php?paramFront=2">
+                      <img src="view/images/Bonus_img/chapeau/chapeau1.png" alt="bonus">
+                    </a>
                   </div>
 
-                  <div class="ui-widget-content" id="draggable11" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/chapeau/chapeau2.png" alt="bonus">
+                  <div class="ui-widget-content" id="draggable10" style="margin-right: 0px;margin-left: 0px;">
+                    <a href="index.php?paramFront=3">
+                      <img src="view/images/Bonus_img/chapeau/chapeau5.png" alt="bonus">
+                    </a>
                   </div>
 
-                  <div class="ui-widget-content" id="draggable12" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/chapeau/chapeau4.png" alt="bonus">
-                  </div>
-
-                  <div class="ui-widget-content" id="draggable13" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/bouche/bouche.png" alt="bonus">
-                  </div>
+                  <a href="index.php?page=sessionFront">
+                    <button type="button" id="copier"  name="button">Enlever Chapeau</button>
+                    </a>
 
                   <div class="ui-widget-content" id="draggable14" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/bouche/bouche1.png" alt="bonus">
+                    <a href="index.php?paramBouche=1">
+                      <img src="view/images/Bonus_img/bouche/bouche1.png" alt="bonus">
+                    </a>
                   </div>
 
                   <div class="ui-widget-content" id="draggable15" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
+                    <a href="index.php?paramBouche=3">
+                      <img src="view/images/Bonus_img/bouche/bouche4.png" alt="bonus">
+                    </a>
                   </div>
 
 
                   <div class="ui-widget-content" id="draggable16" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
+                    <a href="index.php?paramBouche=2">
+                      <img src="view/images/Bonus_img/autre/autre3.png" alt="bonus">
+                    </a>
                   </div>
+
+                  <a href="index.php?page=sessionBouche">
+                    <button type="button" id="copier"  name="button">Enlever Bouche</button>
+                    </a>
 
                 </div>
               </div>
