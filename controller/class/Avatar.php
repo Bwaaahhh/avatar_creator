@@ -3,14 +3,26 @@
 class Avatar{
 
 
-    public function getFront(){
+    public function getFront($param = null){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM front ORDER BY RAND()");
+
+        if ($param !== null) {
+          $query = $dbh->query("SELECT * FROM front WHERE param_front = $param ORDER BY RAND()");
+        }
+        else {
+          $query = $dbh->query("SELECT * FROM front  WHERE param_front is null ORDER BY RAND()");
+        }
         return $query->fetchAll();
     }
-    public function getYeux(){
+    public function getYeux($param = null){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM yeux ORDER BY RAND()");
+
+        if ($param !== null) {
+          $query = $dbh->query("SELECT * FROM yeux WHERE param_yeux = $param ORDER BY RAND()");
+        }
+        else {
+          $query = $dbh->query("SELECT * FROM yeux  WHERE param_yeux is null ORDER BY RAND()");
+        }
         return $query->fetchAll();
     }
     public function getNez(){
@@ -18,9 +30,14 @@ class Avatar{
         $query = $dbh->query("SELECT * FROM nez ORDER BY RAND()");
         return $query->fetchAll();
     }
-    public function getBouche(){
+    public function getBouche($param = null){
         global $dbh;
-        $query = $dbh->query("SELECT * FROM bouche ORDER BY RAND()");
+        if ($param !== null) {
+          $query = $dbh->query("SELECT * FROM bouche WHERE param_bouche = $param ORDER BY RAND()");
+        }
+        else {
+          $query = $dbh->query("SELECT * FROM bouche  WHERE param_bouche is null ORDER BY RAND()");
+        }
         return $query->fetchAll();
     }
     public function getRandomAvatar(){
@@ -58,7 +75,7 @@ class Avatar{
     }
 
 
-// ".$this->countAvatar()."
+
 
 }
 ?>

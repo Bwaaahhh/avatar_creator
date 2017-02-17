@@ -5,21 +5,18 @@
         <title> Découvrez l'avatar creator de l'ACS Marmier !</title>
         <meta name="description" content="Avatar creator en groupe ACS" />
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" type="text/css" href="view/css/style.css"  />
-        <script type="text/javascript" src="view/js/html2canvas.js"></script>
+        <link rel="stylesheet" type="text/css" href="<?= WEBROOT ?>/view/css/style.css"  />
+        <script type="text/javascript" src="<?= WEBROOT ?>/view/js/html2canvas.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="view/js/js.js"></script>
-        <script type="text/javascript" src="view/js/slider.js"></script>
-        <script type="text/javascript" src="view/js/jquery-1.11.3.min.js"></script>
-        <script  type="text/javascript" src="view/js/jssor.slider-22.2.6.mini.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script type="text/javascript" src="view/js/DragDrop.js"></script>
+        <script type="text/javascript" src="<?= WEBROOT ?>/view/js/js.js"></script>
+        <script type="text/javascript" src="<?= WEBROOT ?>/view/js/slider.js"></script>
+        <script type="text/javascript" src="<?= WEBROOT ?>/view/js/jquery-1.11.3.min.js"></script>
+        <script  type="text/javascript" src="<?= WEBROOT ?>/view/js/jssor.slider-22.2.6.mini.js"></script>
         <!-- Twitter Card meta -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@skyminds">
         <meta name="twitter:title" content="Page Title">
-        <meta name="twitter:description" content="Page description : less than 200 characters">
+        <meta name="twitter:description" content="Coucou">
         <meta name="twitter:creator" content="@skyminds">
         <meta name="twitter:url" content="Page URL" />
         <meta name="twitter:domain" content="domain URL" />
