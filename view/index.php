@@ -1,13 +1,4 @@
 <body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
 <!-- ZONE DE CREATION -->
 <div class="container-fluid">
   <div class="row">
@@ -150,7 +141,7 @@
                     <a id="test"></a>
                     <button id="buttonnn" type="button" name="button" onclick="getScreenshot()">Enregistrer</button>
                   </div>
-                  <div class="col-md-5 envoyer">
+                  <div class="col-md-5 col-md-offset-1 envoyer">
                     <div class="row">
                       <div class="col-md-12">
                         <input type="url" id="url" name="" value="" style="width: 340px;">
@@ -159,12 +150,6 @@
 
 
                     <button type="button" id="copier" onclick="copier();" name="button">Copier</button>
-                  </div>
-                  <?php $result = $avatar->getUrlAvatar();?>
-
-                  <div class="col-md-2" style="margin-top: 11px ; padding-left:0">
-                    <a href="<?=$result?>" id="Tt" class="twitter-share-button" data-size="large">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    <div class="fb-share-button" id="Fb" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="<?=$result?>">Partager</a></div>
                   </div>
 
                 </div>
@@ -180,7 +165,7 @@
               <?php foreach ($result as $row)
               { ?>
                 <div class="col-md-6 imagecreate">
-                  <a href="index.php?page=view_avatar&id_avatar=<?= $row->id_avatar ?>">
+                  <a href="<?= WEBROOT ?>view_avatar/<?= $row->id_avatar ?>">
                     <img data-u="image" style="width: 200px; padding-bottom:10%" src="<?= $row->url_avatar ?>" alt="">
                   </a>
                 </div>

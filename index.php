@@ -2,7 +2,7 @@
 
 $page = "index.php";
 
-define('WEBROOT', str_replace($page, 'view/template/', $_SERVER['SCRIPT_NAME']));
+define('WEBROOT', str_replace($page, '', $_SERVER['SCRIPT_NAME']));
 
 require_once("model/PDO.php");
 require_once('controller/class/Avatar.php');
