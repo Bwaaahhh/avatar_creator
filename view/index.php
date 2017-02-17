@@ -181,22 +181,6 @@
 
                 <div class="moustacheok">
 
-                  <div class="ui-widget-content" id="draggable1" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/moustache/barbe.png" alt="bonus">
-                  </div>
-
-                  <div class="ui-widget-content" id="draggable2" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/moustache/moustache.png" alt="bonus">
-                  </div>
-
-                  <div class="ui-widget-content" id="draggable3" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/moustache/moustache2.png" alt="bonus">
-                  </div>
-
-                  <div class="ui-widget-content" id="draggable4" style="margin-right: 0px;margin-left: 0px;">
-                    <img src="view/images/Bonus_img/moustache/moustache3.png" alt="bonus">
-                  </div>
-
                   <div class="ui-widget-content" id="draggable5" style="margin-right: 0px;margin-left: 0px;">
                     <img src="view/images/Bonus_img/lunette/lunette.png" alt="bonus">
                   </div>
